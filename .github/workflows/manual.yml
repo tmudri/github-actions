@@ -29,4 +29,5 @@ jobs:
     - name: Send greeting
       run: echo "Hello ${{ github.event.inputs.name }}"
     - name: echo 1
-      run: toJson({"text":"asdasd"})
+      run: |
+        echo toJson({ "status": "Success" })
