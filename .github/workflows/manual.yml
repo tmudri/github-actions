@@ -29,4 +29,4 @@ jobs:
     - name: Send greeting
       run: echo "Hello ${{ github.event.inputs.name }}"
     - name: echo 1
-      run: toJson("text":"asdasd")
+      run: toJson({"text":"asdasd"})
